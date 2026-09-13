@@ -10,7 +10,7 @@ export default function Footer() {
         <span>learn genAI</span>
         <div className="flex items-center gap-6">
           <a
-            href="https://github.com"
+            href="https://github.com/learn-genai-website"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 hover:text-[#3A4A29] transition-colors"
@@ -20,7 +20,7 @@ export default function Footer() {
             github
           </a>
           <a
-            href="https://buymeacoffee.com"
+            href="https://buymeacoffee.com/anshumancdx"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 hover:text-[#3A4A29] transition-colors"
