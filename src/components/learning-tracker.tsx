@@ -44,10 +44,10 @@ export default function LearningTracker({
         Learning Tracker
       </h2>
 
-      {/* Outer border — matches the big bordered box in the reference */}
-      <div className="border border-[#292929] flex" style={{ minHeight: "560px" }}>
-        {/* Sidebar — fixed width */}
-        <div className="w-44 shrink-0">
+      {/* Outer tracker */}
+      <div className="flex h-[calc(100vh-220px)] min-h-0 border border-[#292929]">
+        {/* Sidebar */}
+        <div className="w-44 shrink-0 min-h-0">
           <CourseSidebar
             courses={courses}
             selectedCourseId={selectedCourseId}
@@ -59,20 +59,31 @@ export default function LearningTracker({
           />
         </div>
 
-        {/* Topic table — fills remaining width */}
-        <div className="flex-1 flex flex-col min-w-0 border-l border-[#292929]">
+        {/* Topic table */}
+        <div className="flex min-h-0 min-w-0 flex-1 flex-col border-l border-[#292929]">
           {selectedCourse ? (
             <TopicTable
               course={selectedCourse}
-              onAddTopic={(t) => onAddTopic(selectedCourse.id, t)}
-              onUpdateTopic={(tid, patch) =>
-                onUpdateTopic(selectedCourse.id, tid, patch)
+              onAddTopic={(topic) =>
+                onAddTopic(selectedCourse.id, topic)
               }
-              onDeleteTopic={(tid) => onDeleteTopic(selectedCourse.id, tid)}
+              onUpdateTopic={(topicId, patch) =>
+                onUpdateTopic(
+                  selectedCourse.id,
+                  topicId,
+                  patch
+                )
+              }
+              onDeleteTopic={(topicId) =>
+                onDeleteTopic(
+                  selectedCourse.id,
+                  topicId
+                )
+              }
             />
           ) : (
-            <div className="flex items-center justify-center flex-1 p-10">
-              <p className="text-sm text-[#29391D]/40 font-body">
+            <div className="flex min-h-0 flex-1 items-center justify-center p-10">
+              <p className="font-body text-sm text-[#29391D]/40">
                 select a course from the sidebar.
               </p>
             </div>
