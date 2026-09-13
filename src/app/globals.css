@@ -1,26 +1,178 @@
 @import "tailwindcss";
 
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg: #f5f2e8;
+  --surface: #eae5d5;
+  --border: #292929;
+  --text: #29391d;
+  --text-muted: rgba(41, 57, 29, 0.55);
+  --accent: #b8a879;
+  --green-dark: #29391d;
+  --green-mid: #3a4a29;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+
+
+@theme inline {
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --font-handwritten: var(--font-handwritten);
+}
+
+.font-display {
+  font-family: var(--font-display), Georgia, serif;
+}
+
+.font-body {
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+
+.font-handwritten {
+  font-family: var(--font-handwritten), cursive;
+}
+
+
+
+/* Navigation links */
+.nav-link {
+  font-family: var(--font-handwritten), cursive;
+  font-size: 1.2rem;
+  color: var(--text);
+  text-decoration: none;
+  transition: color 0.15s ease, opacity 0.15s ease;
+  opacity: 0.85;
+}
+
+.nav-link:hover {
+  opacity: 1;
+  color: var(--green-mid);
+}
+
+.nav-link:focus-visible {
+  outline: 1px solid var(--border);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Small icon buttons */
+.icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  color: var(--text);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: color 0.15s ease, opacity 0.15s ease;
+}
+
+.icon-btn:hover {
+  color: var(--green-mid);
+}
+
+.icon-btn:focus-visible {
+  outline: 1px solid var(--border);
+  outline-offset: 1px;
+}
+
+/* Inline text inputs (rename / edit) */
+.inline-edit {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-family: var(--font-body), system-ui, sans-serif;
+  font-size: 0.8rem;
+  padding: 3px 6px;
+  border-radius: 0;
+  width: 100%;
+  min-width: 0;
+}
+
+.inline-edit::placeholder {
+  color: var(--text-muted);
+}
+
+.inline-edit:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px var(--border);
+}
+
+/* Status badge / select */
+.status-badge {
+  font-family: var(--font-body), system-ui, sans-serif;
+  font-size: 0.7rem;
+  padding: 2px 8px;
+  border: none;
+  border-radius: 0;
+  appearance: none;
+  -webkit-appearance: none;
+  background: transparent;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.status-not-started {
+  color: var(--text-muted);
+}
+
+.status-in-progress {
+  color: #7c6a2a;
+  background-color: rgba(184, 165, 90, 0.08);
+}
+
+.status-completed {
+  color: var(--green-mid);
+  background-color: rgba(58, 74, 41, 0.08);
+}
+
+
+:focus-visible {
+  outline: 1px solid var(--border);
+  outline-offset: 2px;
+}
+
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--green-mid);
+}
+
+
+@media (max-width: 768px) {
+  .tracker-scroll-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
 }
