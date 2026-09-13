@@ -8,6 +8,7 @@ import {
   CheckIcon,
   Cancel01Icon,
   PlusSignIcon,
+  LockIcon,
 } from "@hugeicons/core-free-icons";
 import { Course } from "@/lib/types";
 
@@ -130,50 +131,61 @@ export default function CourseSidebar({
               >
                 <span className="truncate">{course.name}</span>
 
-                {/* Edit / Delete — visible on hover */}
-                <span
-                  className="flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity shrink-0"
-                  onClick={(e) => e.stopPropagation()}
-                >
-                  <span
-                    role="button"
-                    tabIndex={0}
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      startEdit(course);
-                    }}
-                    onKeyDown={(e) => {
-                      if (e.key === "Enter") startEdit(course);
-                    }}
-                    className={`icon-btn ${
-                      selectedCourseId === course.id
-                        ? "text-[#F5F2E8] hover:text-[#B8A879]"
-                        : ""
-                    }`}
-                    aria-label={`Rename ${course.name}`}
-                  >
-                    <HugeiconsIcon icon={PencilEdit01Icon} size={11} strokeWidth={1.5} />
+                {/* Edit / Delete — visible on hover (only for non-static courses) */}
+                {course.isStatic ? (
+                  <span className="flex items-center opacity-0 group-hover:opacity-30 transition-opacity shrink-0">
+                    <HugeiconsIcon
+                      icon={LockIcon}
+                      size={10}
+                      strokeWidth={1.5}
+                      className={selectedCourseId === course.id ? "text-[#F5F2E8]" : "text-[#29391D]"}
+                    />
                   </span>
+                ) : (
                   <span
-                    role="button"
-                    tabIndex={0}
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      onDelete(course.id);
-                    }}
-                    onKeyDown={(e) => {
-                      if (e.key === "Enter") onDelete(course.id);
-                    }}
-                    className={`icon-btn ${
-                      selectedCourseId === course.id
-                        ? "text-[#F5F2E8] hover:text-red-400"
-                        : "hover:text-red-600"
-                    }`}
-                    aria-label={`Delete ${course.name}`}
+                    className="flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity shrink-0"
+                    onClick={(e) => e.stopPropagation()}
                   >
-                    <HugeiconsIcon icon={Delete01Icon} size={11} strokeWidth={1.5} />
+                    <span
+                      role="button"
+                      tabIndex={0}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        startEdit(course);
+                      }}
+                      onKeyDown={(e) => {
+                        if (e.key === "Enter") startEdit(course);
+                      }}
+                      className={`icon-btn ${
+                        selectedCourseId === course.id
+                          ? "text-[#F5F2E8] hover:text-[#B8A879]"
+                          : ""
+                      }`}
+                      aria-label={`Rename ${course.name}`}
+                    >
+                      <HugeiconsIcon icon={PencilEdit01Icon} size={11} strokeWidth={1.5} />
+                    </span>
+                    <span
+                      role="button"
+                      tabIndex={0}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        onDelete(course.id);
+                      }}
+                      onKeyDown={(e) => {
+                        if (e.key === "Enter") onDelete(course.id);
+                      }}
+                      className={`icon-btn ${
+                        selectedCourseId === course.id
+                          ? "text-[#F5F2E8] hover:text-red-400"
+                          : "hover:text-red-600"
+                      }`}
+                      aria-label={`Delete ${course.name}`}
+                    >
+                      <HugeiconsIcon icon={Delete01Icon} size={11} strokeWidth={1.5} />
+                    </span>
                   </span>
-                </span>
+                )}
               </button>
             )}
           </li>
