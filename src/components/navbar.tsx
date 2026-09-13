@@ -18,13 +18,14 @@ export default function Navbar() {
           roadmap
         </Link>
         <Link
-          href="#whiteboard"
+          href="https://brainboard.anshumancdx.xyz"
           className="nav-link"
+          
         >
           use a whiteboard
         </Link>
         <a
-          href="https://github.com"
+          href="https://github.com/learn-genai-website"
           target="_blank"
           rel="noopener noreferrer"
           className="nav-link flex items-center gap-1.5"

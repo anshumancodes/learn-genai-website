@@ -1,0 +1,853 @@
+[
+  {
+    "id": "gen-ai-llms",
+    "name": "Fundamentals of Generative AI & LLMs",
+    "isStatic": true,
+    "topics": [
+      {
+        "id": "l01",
+        "name": "Lec 01 — Introduction to Generative AI",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=9g8BtJMHVwc",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l02",
+        "name": "Lec 02 — Activation Functions & Loss Functions in Deep Learning",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=aOQMmjoUglM",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l03",
+        "name": "Lec 03 — Optimizers - Part A",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=jXlaQvjQiIU",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l04",
+        "name": "Lec 04 — Optimizers - Part B",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=VevYEYDAm_8",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l05",
+        "name": "Lec 05 — Convolutional Neural Network - Part A",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=7vmbACnFrb4",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l06",
+        "name": "Lec 06 — Convolutional Neural Network - Part B",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=SoKjqOB0YPw",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l07",
+        "name": "Lec 07 — Introduction to Google Colab",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=wyvLZfmhqP0",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l08",
+        "name": "Lec 08 — Practical Exercise - 1",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=ukII_nwzPsI",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l09",
+        "name": "Lec 09 — Practical Exercise - 2",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=9xuj1BTwWos",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l10",
+        "name": "Lec 10 — Introduction to Autoencoder",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=1zLfwJgBnOo",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l11",
+        "name": "Lec 11 — Training objective: Reconstruction Loss (MSE, Binary Cross-Entropy)",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=aBauhB6K0jg",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l12",
+        "name": "Lec 12 — Types of Autoencoders: Architecture and Code-Level Understanding",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=FyL6UTURU4c",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l13",
+        "name": "Lec 13 — Regularization Techniques in AE: Denoising",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=vo2z-cWDLGE",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l14",
+        "name": "Lec 14 — Regularization Techniques in AE: Sparse",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=q3XAdXdqz8s",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l15",
+        "name": "Lec 15 — Regularization Techniques in AE: Contractive",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=CmOGqsDRVP8",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l16",
+        "name": "Lec 16 — Numerical Example, Limitations of AE",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=87pbybKetu4",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l17",
+        "name": "Lec 17 — Practical Exercise - 1",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=vvkdhI5ECHM",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l18",
+        "name": "Lec 18 — Practical Exercise - 2",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=5C95atwLrAM",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l19",
+        "name": "Lec 19 — Intuition behind KL Divergence - Part A",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=sSDaKISydCA",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l20",
+        "name": "Lec 20 — Intuition behind KL Divergence - Part B",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=-1T2LLNIggw",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l21",
+        "name": "Lec 21 — Introduction to VAE and the working of the Encoder",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=5-O3uduPc8A",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l22",
+        "name": "Lec 22 — Working of Probabilistic Decoder, ELBO, Loss Function of VAE",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=hOu8AoG83H4",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l23",
+        "name": "Lec 23 — Reparameterization Trick",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=09A4OkjUjt0",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l24",
+        "name": "Lec 24 — Numerical Example",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=GA9T9kNoRd4",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l25",
+        "name": "Lec 25 — Practical Exercise - 1",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=0ui08gNfjcA",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l26",
+        "name": "Lec 26 — Entanglement, Disentanglement Latent Space, and Beta-VAE",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=5Iiqeoxw_Sk",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l27",
+        "name": "Lec 27 — Conditional VAE",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=nh55anAdRfw",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l28",
+        "name": "Lec 28 — Latent Space Interpolation",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=RO7aOFN2vkI",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l29",
+        "name": "Lec 29 — Practical Exercise - 2",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=z8nEJfojlWo",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l30",
+        "name": "Lec 30 — Practical Exercise - 3",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=f9FV2DbbxnA",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l31",
+        "name": "Lec 31 — Motivation for GANs",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=9TlyLSpTq4Y",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l32",
+        "name": "Lec 32 — GAN Architecture",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=nrzPtPnz2Js",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l33",
+        "name": "Lec 33 — GAN Objective and Loss Functions",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=uWm5rUJpZ_4",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l34",
+        "name": "Lec 34 — GAN Convergence and Nash equilibrium",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=GqbgTaJcl38",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l35",
+        "name": "Lec 35 — Introduction to DCGAN",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=nDQHxsLiXz8",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l36",
+        "name": "Lec 36 — Practical Exercise - 1",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=XSSaV-FHW2E",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l37",
+        "name": "Lec 37 — Practical Exercise - 2",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=WTpywahiL9w",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l38",
+        "name": "Lec 38 — Conditional GAN",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=nOL6et_IQRQ",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l39",
+        "name": "Lec 39 — Pix2Pix GAN",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=a9ier1m_Fzs",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l40",
+        "name": "Lec 40 — Cycle GAN",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=xS5PlsvAOb8",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l41",
+        "name": "Lec 41 — Style GAN",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=cIQgQZxat7w",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l42",
+        "name": "Lec 42 — Style GAN 2",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=qNgUfe1oe7Q",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l43",
+        "name": "Lec 43 — Practical Exercise - 1",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=FXGAP5h7414",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l44",
+        "name": "Lec 44 — Introduction to Diffusion Model",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=tZg9-lZnGBs",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l45",
+        "name": "Lec 45 — Mathematics of Diffusion Models",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=scQsAvXIOWw",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l46",
+        "name": "Lec 46 — Denoising Diffusion Probabilistic Model — Forward Process",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=eyw6Hep8kf4",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l47",
+        "name": "Lec 47 — Denoising Diffusion Probabilistic Model — Reverse Process",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=Ze66dWq7yhI",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l48",
+        "name": "Lec 48 — Hands-on on Forward Diffusion Process",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=AF3G4llVO20",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l49",
+        "name": "Lec 49 — U-Net for Denoising",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=wXBxC49sNmk",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l50",
+        "name": "Lec 50 — Classifier Guided Diffusion Model",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=oqA3Mjp2Nn4",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l51",
+        "name": "Lec 51 — Classifier-Free Diffusion Models",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=tDFtVtmwuxo",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l52",
+        "name": "Lec 52 — Stable Diffusion Model",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=sf35xeS7i2Y",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l53",
+        "name": "Lec 53 — Hands-on on Reverse Diffusion Process",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=8xZqIo3BZgE",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l54",
+        "name": "Lec 54 — Foundations of Natural Language Processing",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=b1lFJ8_zEdQ",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l55",
+        "name": "Lec 55 — Sequential Modeling with RNNs and LSTM",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=xPba29DZ0wI",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l56",
+        "name": "Lec 56 — Evolution From LSTMs to Transformers",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=omPaHVk9hrM",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l57",
+        "name": "Lec 57 — Transformer Architecture: Encoder",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=PkK0LcbqPXM",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l58",
+        "name": "Lec 58 — Practical Exercise - 1",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=PBBWBo7OL3M",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      }
+    ]
+  },
+  {
+    "id": "math-gen-ai",
+    "name": "Mathematical Foundations of Generative AI",
+    "isStatic": true,
+    "topics": [
+      {
+        "id": "l01",
+        "name": "Lec 01 — Introduction",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=tXduOwQ36X0",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l02",
+        "name": "Lec 02 — Generative Models: Problem Formulation",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=H05WDy9Mngk",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l03",
+        "name": "Lec 03 — f-Divergence and Examples",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=HvLLR_PScio",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l04",
+        "name": "Lec 04 — Variational Divergence Minimization (VDM)",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=E79ld44pfGM",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l05",
+        "name": "Lec 05 — Generative Adversarial Networks (GANs)",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=GKfv4l6r7hQ",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l06",
+        "name": "Lec 06 — Wasserstein GAN (WGAN)",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=SEtu7Eef5ps",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l07",
+        "name": "Lec 07 — Inversion with GANs and FID",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=BhnGtsMwUCU",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l08",
+        "name": "Lec 08 — Latent Variable Models and Introduction to Variational Autoencoder (VAE)",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=k6zF2NsvVrk",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l09",
+        "name": "Lec 09 — VAEs Part 1",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=ETJG9mmeL5k",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l10",
+        "name": "Lec 10 — VAEs Part 2",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=owlWCCgYx50",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l11",
+        "name": "Lec 11 — Beta-VAE",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=pQIbfyjSnFk",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l12",
+        "name": "Lec 12 — Vector Quantised VAE",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=eDSb3yObtB8",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l13",
+        "name": "Lec 13 — Introdution to Diffusion models",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=wjSKM1xFoSU",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l14",
+        "name": "Lec 14 — Diffussion Models - Part 1",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=LR9UQXY_IU8",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l15",
+        "name": "Lec 15 — Diffussion Models - Part 2",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=GjxuVZeMSfE",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l16",
+        "name": "Lec 16 — Pedagogy in the Times of AI",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=4vtL3NhCkgg",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l17",
+        "name": "Lec 17 — Diffussion Models - Part 3",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=5uqga82bDNA",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "l18",
+        "name": "Lec 18 — Diffussion Models - Part 4",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=dBcURX7GrwE",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "t01",
+        "name": "Tutorial 1 — Introduction to Python Basics",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=1neDqqgaXhE",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "t02",
+        "name": "Tutorial 2 — Introduction to Numpy",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=zw2DUzD0TLE",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "t03",
+        "name": "Tutorial 3 — PyTorch Basics",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=4djE9goJtKs",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "t04",
+        "name": "Tutorial 4 — CNNs using PyTorch",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=KHiRfCIpJkI",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "t05",
+        "name": "Tutorial 5 — RNNs using PyTorch",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=plrfGKsZihg",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "t06",
+        "name": "Tutorial 6 — Transfer Learning with PyTorch",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=I89atful2qg",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "t07",
+        "name": "Tutorial 7 — Review of Basic Probability 1",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=inowo4EMmkA",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "t08",
+        "name": "Tutorial 8 — Review of Basic Probability 2",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=DrLmFcXxhKY",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "t09",
+        "name": "Tutorial 9 — Review of Basic Probability 3",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=Q6EUgNEPwRk",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "t10",
+        "name": "Tutorial 10 — Review of Machine Learning 1",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=O-Jzyk_JjME",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "t11",
+        "name": "Tutorial 11 — f-Divergence and Examples",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=p0wXSsTnmw0",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "t12",
+        "name": "Tutorial 12 — Implementations of Vanilla GAN, DCGAN and Conditional GAN",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=Mxad7Wz7ymg",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "t13",
+        "name": "Tutorial 13 — Wasserstein GAN (WGAN) Implementation using Gradient Clip",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=f_X2vwIXVz4",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "t14",
+        "name": "Tutorial 14 — Wasserstein GAN (WGAN) Implementation using Gradient Penalty",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=N2a1J0UPeL4",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "t15",
+        "name": "Tutorial 15 — VAE and Beta-VAE Implementation",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=hf5E8k_Pdh0",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "t16",
+        "name": "Tutorial 16 — Implementation of VQ-VAE",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=1G3kzIE44aQ",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      },
+      {
+        "id": "t17",
+        "name": "Tutorial 17 — Implementation overview of Diffusion Models",
+        "description": "",
+        "videoUrl": "https://www.youtube.com/watch?v=NZQzEYuok_c",
+        "status": "not-started",
+        "isStatic": true,
+        "pausedAt": ""
+      }
+    ]
+  }
+]
