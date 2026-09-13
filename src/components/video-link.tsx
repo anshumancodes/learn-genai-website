@@ -5,12 +5,12 @@ import { YoutubeIcon, ExternalLinkIcon } from "@hugeicons/core-free-icons";
 
 interface VideoLinkProps {
   url: string;
-  onEdit: () => void;
+  onEdit?: () => void;
 }
 
 export default function VideoLink({ url, onEdit }: VideoLinkProps) {
   if (!url) {
-    return (
+    return onEdit ? (
       <button
         onClick={onEdit}
         className="text-xs text-[#B8A879] hover:text-[#29391D] transition-colors font-body underline underline-offset-2"
@@ -18,7 +18,7 @@ export default function VideoLink({ url, onEdit }: VideoLinkProps) {
       >
         add video
       </button>
-    );
+    ) : null;
   }
 
   return (
@@ -31,14 +31,14 @@ export default function VideoLink({ url, onEdit }: VideoLinkProps) {
     >
       <HugeiconsIcon
         icon={YoutubeIcon}
-        size={14}
+        size={28}
         strokeWidth={1.5}
-        className="text-[#B8A879] group-hover:text-[#29391D] transition-colors shrink-0"
+        className="text-[#ea3204] group-hover:text-[#29391D] transition-colors shrink-0"
       />
       <span className="underline underline-offset-2">watch video</span>
       <HugeiconsIcon
         icon={ExternalLinkIcon}
-        size={11}
+        size={18}
         strokeWidth={1.5}
         className="opacity-50 shrink-0"
       />
