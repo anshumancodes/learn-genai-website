@@ -117,18 +117,7 @@ body {
 }
 
 /* Status badge / select */
-.status-badge {
-  font-family: var(--font-body), system-ui, sans-serif;
-  font-size: 0.7rem;
-  padding: 2px 8px;
-  border: none;
-  border-radius: 0;
-  appearance: none;
-  -webkit-appearance: none;
-  background: transparent;
-  cursor: pointer;
-  white-space: nowrap;
-}
+
 
 .status-not-started {
   color: var(--text-muted);
