@@ -11,9 +11,9 @@ const STATUS_LABELS: Record<TopicStatus, string> = {
 };
 
 const STATUS_STYLES: Record<TopicStatus, string> = {
-  "not-started": "status-badge status-not-started",
-  "in-progress": "status-badge status-in-progress",
-  completed: "status-badge status-completed",
+  "not-started": "status-not-started",
+  "in-progress": "status-in-progress",
+  completed: "status-completed",
 };
 
 interface StatusSelectorProps {
@@ -28,12 +28,12 @@ export default function StatusSelector({
   id,
 }: StatusSelectorProps) {
   return (
-    <div className="relative inline-flex items-center border">
+    <div className="relative inline-flex items-center border w-112.5">
       <select
         id={id}
         value={value}
         onChange={(e) => onChange(e.target.value as TopicStatus)}
-        className={`${STATUS_STYLES[value]} min-w-[170px] cursor-pointer appearance-none border-0 outline-none ring-0 pl-3 pr-10 focus:border-0 focus:outline-none focus:ring-0`}
+        className={`${STATUS_STYLES[value] } w-full outline-0 border-0 focus:border-0 focus:outline-0 active:border-0 active:outline-0 focus-visible:border-0 focus-visible:outline-0`}
         aria-label="Topic status"
       >
         {(Object.keys(STATUS_LABELS) as TopicStatus[]).map((s) => (
@@ -43,14 +43,7 @@ export default function StatusSelector({
         ))}
       </select>
 
-      <span className="pointer-events-none absolute right-3 flex items-center text-current opacity-70">
-        <HugeiconsIcon
-          icon={ChevronDown}
-          size={16}
-          strokeWidth={1.5}
-          aria-hidden="true"
-        />
-      </span>
+      
     </div>
   );
 }
