@@ -9,20 +9,18 @@ export default function Hero() {
           id="hero-heading"
           className="font-display text-6xl md:text-7xl text-[#29391D] leading-none mb-6 text-center"
         >
-          learn genAi
+          learn genAI
         </h1>
-        <p className="text-sm text-[#29391D] leading-relaxed text-center max-w-sm mx-auto font-body">
-          this website is opensource incase you wanna add more resources
-          or make design changes or simply wanna contribute please find the
-          github link below and contribute.
+        <p className="text-sm text-[#29391D] leading-relaxed text-center max-w mx-auto font-body">
+          a resource to learn genAI and its mathematical foundations. courses link to IISc’s NPTEL videos, and you can use this site to track your progress.
+
         </p>
       </div>
 
       {/* Secondary description outside the box */}
-      <p className="text-sm text-[#29391D] leading-relaxed max-w-2xl mx-auto font-body">
-        this a resource for learning gen ai along with its mathematical foundations.
-        the courses arent owned by the site maintainer and they simply redirect u to
-        indian institute of sciences&apos; nptel yt videos, you can use this site as a tracker
+      <p className="text-[12px] text-[#29391D] leading-relaxed max-w-2xl mx-auto font-body text-center">
+        this site is editable, so if you wanna add more resources for others, find the repo above and contribute.
+
       </p>
     </section>
   );
